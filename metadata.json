@@ -1,0 +1,6 @@
+{
+  "name": "HWidget",
+  "description": "Android 超級桌面小工具平台：免寫程式自由組合時鐘、天氣、待辦、新聞、筆記、倒數日、電量與步數 Widget，支援 Material You 與 Glassmorphism 外觀系統與擴充模組。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

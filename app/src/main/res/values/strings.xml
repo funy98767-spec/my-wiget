@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HWidget</string>
+    <string name="widget_composite_desc">HWidget 超級組合桌面小工具（時鐘、天氣、電量、待辦、步數與倒數日）</string>
+    <string name="widget_clock_desc">HWidget 數位 / 翻頁 / 像素風格桌面時鐘</string>
+    <string name="nav_home">已安裝</string>
+    <string name="nav_studio">建立</string>
+    <string name="nav_store">商店</string>
+    <string name="nav_settings">設定</string>
+    <string name="channel_reminders_name">HWidget 任務與倒數提醒</string>
+    <string name="channel_reminders_desc">用於待辦事項到期通知與重要倒數日提醒</string>
+</resources>

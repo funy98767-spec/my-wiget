@@ -9,6 +9,9 @@ workflows:
       - name: Fix Gradle version
         script: |
           gradle wrapper --gradle-version 9.3.1
+      - name: Generate debug keystore
+        script: |
+          keytool -genkeypair -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -d "CN=Android Debug,O=Android,C=US" -noprompt
       - name: Build Debug APK
         script: |
           ./gradlew assembleDebug
